@@ -1,0 +1,17 @@
+{
+  "_class_name": "DDPMScheduler",
+  "_diffusers_version": "0.15.0.dev0",
+  "beta_end": 0.02,
+  "beta_schedule": "squaredcos_cap_v2",
+  "beta_start": 0.0001,
+  "clip_sample": true,
+  "clip_sample_range": 1.0,
+  "dynamic_thresholding_ratio": 0.95,
+  "num_train_timesteps": 1000,
+  "prediction_type": "epsilon",
+  "sample_max_value": 1.5,
+  "thresholding": true,
+  "trained_betas": null,
+  "variance_type": "learned_range",
+  "lambda_min_clipped": -5.1
+}

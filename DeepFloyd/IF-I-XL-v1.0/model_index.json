@@ -1,0 +1,34 @@
+{
+  "_class_name": "IFPipeline",
+  "_diffusers_version": "0.15.0.dev0",
+  "_ignore_files": ["pytorch_model.bin"],
+  "scheduler": [
+    "diffusers",
+    "DDPMScheduler"
+  ],
+  "text_encoder": [
+    "transformers",
+    "T5EncoderModel"
+  ],
+  "tokenizer": [
+    "transformers",
+    "T5Tokenizer"
+  ],
+  "unet": [
+    "diffusers",
+	"UNet2DConditionModel"
+  ],
+  "feature_extractor": [
+    "transformers",
+    "CLIPImageProcessor"
+  ],
+  "safety_checker": [
+    "deepfloyd_if",
+    "IFSafetyChecker"
+  ],
+  "watermarker": [
+    "deepfloyd_if",
+    "IFWatermarker"
+  ],
+  "requires_safety_checker": true
+}
